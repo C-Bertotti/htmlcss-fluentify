@@ -19,10 +19,33 @@ body {
   clear: both;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* button */
+a.link {
+ background-color: #7cbb02;
+ border-radius: 5px;
+}
+
+a.link.login {
+  border: 1px solid #fff;
+  background-color: transparent;
+  padding: 10px 20px;
+  margin-right: 15px;
+}
+
+a.link.big {
+  padding: 20px;
+  font-size: 15px;
+}
+
 /* header */
-header {
+header, .hero {
   background-color: #0c325a;
-  padding-top: 20px;
 }
 
 .logo, .main-nav {
@@ -45,9 +68,6 @@ header {
 /* main nav */
 nav ul a {
   display: inline-block;
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
   font-size: 12px;
   padding: 10px;
 }
@@ -61,16 +81,25 @@ nav li {
   display: inline-block;
 }
 
-/* secondary-nav  */
-
-.button.login {
-  border: 1px solid #fff;
-  background-color: transparent;
-  padding: 10px 20px;
-  margin-right: 15px;
+/* hero */
+.hero {
+  background-image: url("../img/background-header.png");
+  height: 480px;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  position: relative;
 }
 
-.button {
-  background-color: #7cbb02;
-  border-radius: 5px;
+h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.hero-heading {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
