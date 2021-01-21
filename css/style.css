@@ -1,3 +1,4 @@
+/* general */
 * {
   margin:0;
   padding: 0;
@@ -25,6 +26,7 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
 }
+/* /general */
 
 /* typo */
 a {
@@ -35,7 +37,8 @@ a {
 
 p {
   color: #7f7f7f;
-  font-size: 18px;
+  font-size: 16px;
+  margin-top: 20px;
 }
 
 h1 {
@@ -46,11 +49,11 @@ h1 {
 }
 
 h3 {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 500;
   color: #7cbb02;
-  margin-bottom: 10px;
 }
+/* /typo */
 
 /* button */
 a.link {
@@ -69,6 +72,7 @@ a.link.big {
   padding: 20px;
   font-size: 15px;
 }
+/* /button */
 
 /* header */
 header, .hero {
@@ -97,6 +101,12 @@ header .container * {
   vertical-align: middle;
 }
 
+/* navs */
+.navs {
+  padding-top: 1%;
+}
+/* /navs*/
+
 /* main nav */
 nav ul a {
   display: inline-block;
@@ -112,17 +122,15 @@ nav li {
   list-style: none;
   display: inline-block;
 }
-
-/* navs */
-.navs {
-  padding-top: 1%;
-}
+/* /main nav */
 
 /* secondary-nav */
 .secondary-nav {
   position: absolute;
   right: 0;
 }
+/* /secondary-nav */
+/* /header */
 
 /* hero */
 .hero {
@@ -139,6 +147,7 @@ nav li {
   top: 50%;
   transform: translateY(-50%);
 }
+/* /hero */
 
 /* payoff */
 .payoff {
@@ -150,4 +159,37 @@ nav li {
 
 .payoff h3 {
   color: black;
+}
+/* /payoff */
+
+/* icon */
+
+section.icon {
+  margin: 60px 0;
+}
+.icon .item {
+  width: calc(100%/3);
+  float: left;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.item > img {
+  height: 150px;
+}
+
+.item h3 {
+  margin: 30px 0 20px;
+}
+
+.item hr {
+  width: 20%;
+  margin: auto;
+  color: #7f7f7f;
+}
+
+hr {
+  width: 95%;
+  margin: auto;
+
 }
