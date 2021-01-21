@@ -19,10 +19,30 @@ body {
   clear: both;
 }
 
+.centering {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* typo */
 a {
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
+}
+
+p {
+  color: #7f7f7f;
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 25px;
+  font-weight: 500;
+  color: #7cbb02;
+  margin-bottom: 10px;
 }
 
 /* button */
@@ -102,4 +122,16 @@ h1 {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+
+/* payoff */
+.payoff {
+  height: 150px;
+  text-align: center;
+  background-color: #d3d3d3;
+  position: relative;
+}
+
+.payoff h3 {
+  color: black;
 }
