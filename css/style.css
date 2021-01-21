@@ -38,6 +38,13 @@ p {
   font-size: 18px;
 }
 
+h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
 h3 {
   font-size: 25px;
   font-weight: 500;
@@ -109,13 +116,6 @@ nav li {
   background-repeat: no-repeat;
   background-position: right bottom;
   position: relative;
-}
-
-h1 {
-  color: #fff;
-  font-size: 50px;
-  font-weight: 500;
-  margin-bottom: 50px;
 }
 
 .hero-heading {
