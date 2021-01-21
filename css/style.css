@@ -75,12 +75,12 @@ header, .hero {
   background-color: #0c325a;
 }
 
-.logo, .main-nav {
-  float: left;
+header {
+  padding: 20px;
 }
 
-.secondary-nav {
-  float: right;
+header .container {
+  position: relative;
 }
 
 /* logo */
@@ -89,7 +89,12 @@ header, .hero {
 }
 
 .logo img {
-  width: 80%;
+  width: 90%;
+}
+
+header .container * {
+  display: inline-block;
+  vertical-align: middle;
 }
 
 /* main nav */
@@ -106,6 +111,17 @@ nav ul:first-child {
 nav li {
   list-style: none;
   display: inline-block;
+}
+
+/* navs */
+.navs {
+  padding-top: 1%;
+}
+
+/* secondary-nav */
+.secondary-nav {
+  position: absolute;
+  right: 0;
 }
 
 /* hero */
