@@ -38,23 +38,25 @@ p {
   color: #7f7f7f;
   font-size: 16px;
   margin-top: 20px;
+  font-weight: 400;
 }
 
 h1 {
   color: #fff;
   font-size: 45px;
-  font-weight: 500;
   margin-bottom: 30px;
   width: 60%;
 }
 
 h2 {
-  font-weight: 500;
   font-size: 28px;
 }
 
 h3 {
   font-size: 23px;
+}
+
+h1, h2, h3 {
   font-weight: 500;
 }
 /* /typo */
@@ -125,7 +127,6 @@ header .container * {
 
 header li {
   list-style: none;
-  display: inline-block;
 }
 
 header li:not(:last-child) {
@@ -194,7 +195,6 @@ section {
   width: 20%;
   margin: auto;
   border: 1px solid #7f7f7f;
-
 }
 /* /icon */
 
@@ -251,9 +251,10 @@ select {
 .selection-form {
   position: relative;
 }
+
 .selection-form::after {
   content: '\25BE';
   position: absolute;
   right: 30px;
-
+}
 /* /plan */
