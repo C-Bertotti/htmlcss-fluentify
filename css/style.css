@@ -68,10 +68,12 @@ h3 {
   border-radius: 5px;
   font-size: 12px;
   text-align: center;
+  text-transform: uppercase;
+  border: none;
 }
 
 .btn-big {
-  padding: 20px;
+  padding: 20px 10px;
   font-size: 14px;
 }
 
@@ -81,6 +83,14 @@ h3 {
 
 .btn-green {
   background-color: #7cbb02;
+}
+
+#help {
+  padding: 15px 10px;
+  min-width: inherit;
+  position: fixed;
+  bottom: 3%;
+  right: 10%;
 }
 /* /button */
 
@@ -242,7 +252,7 @@ select {
   position: relative;
 }
 .selection-form::after {
-  content: '\2228';
+  content: '\25BE';
   position: absolute;
   right: 30px;
 
