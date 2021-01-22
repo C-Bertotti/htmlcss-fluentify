@@ -43,9 +43,10 @@ p {
 
 h1 {
   color: #fff;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 500;
   margin-bottom: 50px;
+  width: 60%;
 }
 
 h3 {
@@ -56,22 +57,25 @@ h3 {
 /* /typo */
 
 /* button */
-a.link {
- background-color: #7cbb02;
- border-radius: 5px;
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  padding: 7px 12px;
+  min-width: 80px;
+  border-radius: 5px;
+  font-size: 12px;
+  text-align: center;
 }
 
-a.link.login {
+.btn-bordered {
   border: 1px solid #fff;
-  background-color: transparent;
-  padding: 10px 20px;
-  margin-right: 15px;
 }
 
-a.link.big {
-  padding: 20px;
-  font-size: 15px;
+.btn-green {
+  background-color: #7cbb02;
 }
+
 /* /button */
 
 /* header */
@@ -81,19 +85,17 @@ header, .hero {
 
 header {
   padding: 20px;
-}
-
-header .container {
-  position: relative;
+  font-size: 12px;
 }
 
 /* logo */
 .logo {
-  width: 13%;
+  width: 15%;
 }
 
 .logo img {
   width: 90%;
+  padding-bottom: 10px;
 }
 
 header .container * {
@@ -101,33 +103,25 @@ header .container * {
   vertical-align: middle;
 }
 
-/* navs */
-.navs {
-  padding-top: 1%;
-}
-/* /navs*/
-
 /* main nav */
-nav ul a {
-  display: inline-block;
-  font-size: 12px;
-  padding: 10px;
+.main-nav {
+  width: 45%;
 }
 
-nav ul:first-child {
-  padding-left: 0;
-}
-
-nav li {
+header li {
   list-style: none;
   display: inline-block;
+}
+
+header li:not(:last-child) {
+  margin-right: 15px;
 }
 /* /main nav */
 
 /* secondary-nav */
 .secondary-nav {
-  position: absolute;
-  right: 0;
+  text-align: right;
+  width: 40%;
 }
 /* /secondary-nav */
 /* /header */
@@ -138,7 +132,7 @@ nav li {
   height: 480px;
   background-size: 70%;
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: 110% 100%;
   position: relative;
 }
 
