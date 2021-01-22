@@ -19,6 +19,11 @@ body {
   display: block;
   clear: both;
 }
+
+.separator {
+  width: 95%;
+  margin: auto;
+}
 /* /general */
 
 /* typo */
@@ -26,6 +31,7 @@ a {
   text-decoration: none;
   color: #fff;
   text-transform: uppercase;
+  font-size: 12px;
 }
 
 p {
@@ -42,15 +48,18 @@ h1 {
   width: 60%;
 }
 
+h2 {
+  font-weight: 500;
+  font-size: 28px;
+}
+
 h3 {
   font-size: 23px;
   font-weight: 500;
-  color: #7cbb02;
 }
 /* /typo */
 
 /* button */
-
 .btn {
   display: inline-block;
   color: #fff;
@@ -73,7 +82,6 @@ h3 {
 .btn-green {
   background-color: #7cbb02;
 }
-
 /* /button */
 
 /* header */
@@ -83,7 +91,6 @@ header, #hero {
 
 header {
   padding: 20px;
-  font-size: 12px;
 }
 
 /* logo */
@@ -128,6 +135,7 @@ header li:not(:last-child) {
 section {
   padding: 50px 0;
 }
+
 /* hero */
 #hero {
   background-image: url("../img/background-header.png");
@@ -150,14 +158,9 @@ section {
   text-align: center;
   background-color: #d3d3d3;
 }
-
-#payoff h3 {
-  color: black;
-}
 /* /payoff */
 
 /* icon */
-
 #icon .item {
   width: calc(100%/3);
   float: left;
@@ -171,16 +174,31 @@ section {
 
 .item h3 {
   margin: 30px 0 20px;
+  color: #7cbb02;
 }
 
 .item hr {
   width: 20%;
   margin: auto;
-  color: #7f7f7f;
-}
-
-hr {
-  width: 95%;
-  margin: auto;
+  border: 1px solid #7f7f7f;
 
 }
+/* /icon */
+
+/* level */
+#level .container * {
+  float: left;
+}
+
+.level-cols {
+  width: 50%;
+  padding: 0 7%;
+}
+
+.link {
+  color: #306bad;
+  text-decoration: underline;
+  text-transform: none;
+  margin-top: 30px;
+}
+/* /level */
