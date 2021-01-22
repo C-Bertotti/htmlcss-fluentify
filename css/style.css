@@ -156,9 +156,12 @@ section {
 /* payoff */
 #payoff {
   text-align: center;
-  background-color: #d3d3d3;
 }
 /* /payoff */
+
+#payoff, #plan {
+  background-color: #d3d3d3;
+}
 
 /* icon */
 #icon .item {
@@ -202,3 +205,45 @@ section {
   margin-top: 30px;
 }
 /* /level */
+
+/* plan */
+#plan .container * {
+  display: inline-block;
+}
+
+#plan .cols {
+  width: 50%;
+}
+
+.plan-selection {
+  text-align: right;
+  color: #7f7f7f;
+}
+
+label, select {
+  margin-right: 30px;
+}
+
+label {
+  font-size: 15px;
+}
+
+select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #7f7f7f;
+  color: #7f7f7f;
+  font-size: 16px;
+  padding-bottom: 3px;
+}
+
+.selection-form {
+  position: relative;
+}
+.selection-form::after {
+  content: '\2228';
+  position: absolute;
+  right: 30px;
+
+/* /plan */
